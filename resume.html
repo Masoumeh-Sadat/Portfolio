@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masoumeh Sadat — CV</title>
+  <meta name="description" content="CV of Masoumeh Sadat, AI-focused developer and product builder." />
+  <link rel="icon" href="avatar.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { background: #f5f7fb; color:#152033; }
+    .cv-wrap { width:min(100% - 28px, 980px); margin:40px auto; }
+    .cv-paper { background:#fff; border:1px solid #dfe5ef; box-shadow:0 24px 70px rgba(20,32,51,.12); border-radius:18px; overflow:hidden; }
+    .cv-head { display:grid; grid-template-columns:1fr auto; gap:30px; padding:44px; background:linear-gradient(135deg,#0b1424,#14243e); color:#fff; }
+    .cv-head h1 { margin:0; font-size:clamp(2.4rem,6vw,4.8rem); line-height:.95; letter-spacing:-.06em; }
+    .cv-title { margin:14px 0 0; color:#8feeff; font-weight:800; font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
+    .cv-summary { margin:20px 0 0; max-width:650px; color:#b7c2d6; font-size:14px; }
+    .cv-avatar { width:130px; height:130px; object-fit:contain; align-self:start; }
+    .cv-body { padding:38px 44px 46px; display:grid; grid-template-columns:1.32fr .68fr; gap:45px; }
+    .cv-section + .cv-section { margin-top:32px; }
+    .cv-section h2 { margin:0 0 14px; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#4b6fe8; }
+    .cv-section h3 { margin:0; font-size:18px; letter-spacing:-.03em; }
+    .cv-section p { margin:6px 0 0; color:#58677f; font-size:13px; }
+    .cv-item { padding:0 0 19px; border-bottom:1px solid #e8edf4; margin-bottom:19px; }
+    .cv-meta { margin-top:5px; color:#78869b; font-size:11px; }
+    .cv-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:12px; }
+    .cv-tags span { border:1px solid #dde4ef; padding:5px 7px; border-radius:7px; font-size:10px; color:#506078; }
+    .cv-sidebox { padding:18px; background:#f7f9fc; border:1px solid #e3e9f2; border-radius:14px; }
+    .cv-sidebox + .cv-sidebox { margin-top:15px; }
+    .cv-sidebox h3 { font-size:13px; margin-bottom:9px; }
+    .cv-list { margin:0; padding:0; list-style:none; display:grid; gap:8px; }
+    .cv-list li { color:#56657d; font-size:12px; }
+    .cv-contact a { color:#1f4ed8; }
+    .cv-note { text-align:center; color:#738096; font-size:11px; margin:16px 0; }
+    .cv-tools { display:flex; justify-content:space-between; gap:10px; margin-bottom:16px; }
+    .cv-tools a, .cv-tools button { border:1px solid #dfe5ef; background:#fff; color:#23324a; border-radius:999px; padding:8px 12px; font-size:11px; cursor:pointer; }
+    @media (max-width: 720px) {
+      .cv-head { grid-template-columns:1fr; padding:30px; }
+      .cv-avatar { width:110px; }
+      .cv-body { padding:30px; grid-template-columns:1fr; }
+      .cv-tools { position:sticky; top:8px; z-index:2; }
+    }
+    @media print {
+      body { background:#fff; }
+      .cv-wrap { width:100%; margin:0; }
+      .cv-paper { border:0; box-shadow:none; border-radius:0; }
+      .cv-tools, .cv-note { display:none; }
+      .cv-head { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-wrap">
+    <div class="cv-tools">
+      <a href="index.html">← Portfolio</a>
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+    <article class="cv-paper">
+      <header class="cv-head">
+        <div>
+          <h1>Masoumeh Sadat</h1>
+          <div class="cv-title">AI-Focused Developer · Front-end & Product Builder · Remote</div>
+          <p class="cv-summary">Student developer building thoughtful, resilient web products with a long-term focus on Artificial Intelligence. Interested in turning real-world constraints into clearer product decisions and useful experiences.</p>
+        </div>
+        <img src="avatar.png" alt="Professional digital avatar" class="cv-avatar" />
+      </header>
+
+      <div class="cv-body">
+        <div>
+          <section class="cv-section">
+            <h2>Selected work</h2>
+            <div class="cv-item">
+              <h3>Continuity AI</h3>
+              <div class="cv-meta">AI / Product · Offline-first Progressive Web App</div>
+              <p>Designed a study companion around disrupted access to internet, electricity, teachers, and class time. The product flow transforms lessons into study capsules, practice, flashcards, offline learning, and progress review.</p>
+              <div class="cv-tags"><span>HTML</span><span>CSS</span><span>Vanilla JS</span><span>Service Worker</span><span>IndexedDB</span><span>LocalStorage</span></div>
+            </div>
+            <div class="cv-item">
+              <h3>CineMatch</h3>
+              <div class="cv-meta">Web product concept · UI / interaction</div>
+              <p>Created a recommendation-oriented cinema experience as a product and interface exercise focused on visual discovery and simple decision flows.</p>
+              <div class="cv-tags"><span>UI</span><span>UX</span><span>Web</span><span>Product Thinking</span></div>
+            </div>
+            <div class="cv-item">
+              <h3>Brewtique + Product Catalog</h3>
+              <div class="cv-meta">Front-end · Responsive web</div>
+              <p>Built storefront and catalog experiences to practice responsive composition, reusable components, product hierarchy, and polished presentation.</p>
+              <div class="cv-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div>
+            </div>
+            <div class="cv-item">
+              <h3>Herat Saffron</h3>
+              <div class="cv-meta">Landing page · Bilingual visual storytelling</div>
+              <p>Designed a bilingual landing page for a local saffron concept, combining editorial layout, cultural context, and a clear visual product story.</p>
+              <div class="cv-tags"><span>HTML</span><span>CSS</span><span>Bilingual UI</span><span>Visual Design</span></div>
+            </div>
+          </section>
+
+          <section class="cv-section">
+            <h2>Direction</h2>
+            <div class="cv-item">
+              <h3>Artificial Intelligence</h3>
+              <p>Long-term undergraduate and career direction, with interest in intelligent systems, AI product development, and the connection between research and practical tools.</p>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <div class="cv-sidebox cv-contact">
+            <h3>Contact</h3>
+            <ul class="cv-list">
+              <li>Afghanistan · Remote</li>
+              <li><a href="mailto:modaser.sadat@icloud.com">modaser.sadat@icloud.com</a></li>
+              <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></li>
+              <li><a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">SheCodes ↗</a></li>
+            </ul>
+          </div>
+          <div class="cv-sidebox">
+            <h3>Core toolkit</h3>
+            <ul class="cv-list">
+              <li>HTML · CSS · JavaScript</li>
+              <li>Python · R · SPSS · MATLAB</li>
+              <li>PWA · Service Worker · Cache API</li>
+              <li>IndexedDB · LocalStorage</li>
+              <li>Git · GitHub · VS Code</li>
+              <li>WordPress · SEO</li>
+              <li>Responsive UI · Product prototyping</li>
+            </ul>
+          </div>
+          <div class="cv-sidebox">
+            <h3>Programs & learning</h3>
+            <ul class="cv-list">
+              <li>SheCodes AI Basics — completed</li>
+              <li>Youths Innovate AI Mentorship 2026 — selected</li>
+              <li>IOAI 2027 Afghanistan National Selection — registered</li>
+              <li>Product / research-focused independent projects</li>
+            </ul>
+          </div>
+          <div class="cv-sidebox">
+            <h3>Fun fact</h3>
+            <p>I instinctively design for the moment the Wi‑Fi disappears. My brain treats “offline” as a product requirement, not a surprise.</p>
+          </div>
+        </aside>
+      </div>
+    </article>
+    <p class="cv-note">This CV page is print-ready. Use “Print / Save as PDF” to create a PDF once the final links and contact details are updated.</p>
+  </div>
+</body>
+</html>
